@@ -5,8 +5,8 @@ import ActiveUsers from './../components/activeUsers';
 import Messages from './../components/messages';
 import moment from 'moment';
 import LoadingScreen from 'react-loading-screen';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCompass,faPaperPlane} from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCompass,faPaperPlane} from '@fortawesome/free-solid-svg-icons';
 
 var socket;
 const initialState = {
@@ -201,10 +201,10 @@ class Chat extends Component {
                                 </div>
                                 <div className="btnWrap">
                                     <button type="submit" className="btn">
-                                    <FontAwesomeIcon icon={faPaperPlane}></FontAwesomeIcon>
+                                    {/* <FontAwesomeIcon icon={faPaperPlane}></FontAwesomeIcon> */}
                                     </button>
                                     <button id="send_location" className="btn" onClick={() => this.sendLocation()}>
-                                    <FontAwesomeIcon icon={faCompass}></FontAwesomeIcon>
+                                    {/* <FontAwesomeIcon icon={faCompass}></FontAwesomeIcon> */}
                                     </button>
                                 </div>
                             </form>
