@@ -201,10 +201,10 @@ class Chat extends Component {
                                 </div>
                                 <div className="btnWrap">
                                     <button type="submit" className="btn">
-                                    {/* <FontAwesomeIcon icon={faPaperPlane}></FontAwesomeIcon> */}
+                                  
                                     </button>
                                     <button id="send_location" className="btn" onClick={() => this.sendLocation()}>
-                                    {/* <FontAwesomeIcon icon={faCompass}></FontAwesomeIcon> */}
+                                   
                                     </button>
                                 </div>
                             </form>
