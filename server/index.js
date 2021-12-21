@@ -95,3 +95,7 @@ io.on("connection", (socket) => {
 server.listen(PORT, () => {
   console.log(`App running on port ${PORT}`);
 });
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../frontend/build', 'index.html'));
+});
